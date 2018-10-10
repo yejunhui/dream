@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+{%block body%}
+<br>
+<br>
+<center>
+	{%block tips%}{%endblock%}
+<div class="box">
+	<h1 style="text-align: center; ">登录</h1>
+	<form action="{{url_for('login')}}" method="post" accept-charset="utf-8">
+		<p class="p">用户名：<input type="text" name="user" value="" placeholder="" onfocus="this.select()"></p><br>
+		<p class="p">密 码：<input type="password" name="password"  placeholder="" onfocus="this.select()"> </p>
+		<p class="p"><input type="submit" name="" value="登录"></p>	
+	</form>
+	
+</div>
+</center>
+{%endblock%}
+
+{%block user%}
+<a class="a" href="{{url_for('help')}}">关于</a>
+{%endblock%}

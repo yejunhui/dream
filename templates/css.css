@@ -1,0 +1,11 @@
+h2.pos_left
+{
+position:relative;
+left:-100px
+
+}
+h2.pos_right
+{
+position:relative;
+left:200px
+}

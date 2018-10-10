@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+{%block body%}
+<div class="indexbody">
+  <ul class="ul">
+    <li class="libody"><a class="a" href="#">系统</a></li>
+    <li class="libody"><a class="a" href="#">采购</a></li>
+    <li class="libody"><a class="a" href="#">生产</a></li>
+    <li class="libody"><a class="a" href="#">库存</a></li>
+    <li class="libody"><a class="a" href="#">出货</a></li>
+    <li class="libody"><a class="a" href="#">数据库</a></li>
+  </ul>
+</div>
+{%endblock%}
+
+{%block user%}
+<a class="a" href="{{url_for('logout')}}" title="">退出</a>
+{%endblock%}
